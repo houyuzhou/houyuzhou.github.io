@@ -131,7 +131,7 @@ span.highlight {
 }
 
 .category conference {
-  color: rgba(0, 0, 0.85);
+  color: rgb(44,106,162);
   font-size: 25px;
 
 &::before{
