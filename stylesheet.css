@@ -130,17 +130,11 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-.category conference {
-  color: rgb(44,106,162);
-  font-size: 25px;
-
-&::before{
+.conference::before {
+  content: '';
   display: inline-block;
-  width: 14px;
-  height: 14px;
-  background: #17a487;
-  content: "";
-  vertical-align: 1px;
-  margin-right: 10px;
-  }
+  width: 10px;
+  height: 10px;
+  background-color: rgb(44, 106, 162);
+  margin-right: 5px;
 }
