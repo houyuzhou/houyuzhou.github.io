@@ -129,3 +129,18 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.category label {
+  color: rgba(0, 0, 0.85);
+  font-size: 25px;
+
+&::before{
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: #17a487;
+  content: "";
+  vertical-align: 1px;
+  margin-right: 10px;
+  }
+}
