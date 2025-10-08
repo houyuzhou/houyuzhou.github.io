@@ -35,9 +35,6 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 - **Large Language Models for Multi-Facility Location Mechanism Design**  
   Nguyen T Thach, Fei Liu, ***Houyu Zhou<sup>†</sup>***, Hau Chan
 
-- **Learning-Augmented Facility Location Mechanisms for the Envy Ratio Objective**  
-  (α-β) Haris Aziz, Yuhang Guo, Alexander Lam, ***Houyu Zhou***
-
 - **Group-fair Facility Location Games with Externalities**  
   (α-β) Minming Li, Cheng Peng, Ying Wang, ***Houyu Zhou<sup>†</sup>***
 
@@ -47,10 +44,16 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 - **Facility Location Games with Task Allocation**  
   (α-β) Zifan Gong, Minming Li, ***Houyu Zhou<sup>†</sup>***
 
+### 2026
 - **Likelihood of the Existence of Average Justified Representation**  
   (α-β) Qishen Han, Biaoshuai Tao, Lirong Xia, Chengkai Zhang, ***Houyu Zhou***
+  *SODA, CORE-A<sup>*</sup>*  
 
 ### 2025
+
+- **Learning-Augmented Facility Location Mechanisms for the Envy Ratio Objective**  
+  (α-β) Haris Aziz, Yuhang Guo, Alexander Lam, ***Houyu Zhou***
+  *NeurIPS, CORE-A<sup>*</sup>*
 
 - **The Degree of (Extended) Justified Representation and Its Optimization**  
   (α-β) Biaoshuai Tao, Chengkai Zhang, ***Houyu Zhou<sup>†</sup>***  
@@ -119,6 +122,7 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
+- *2025* China Computer Federation (CCF) Doctoral Dissertation Award in Agent and Multi-Agent Systems (Runner Up)
 - *2023* Outstanding Academic Performance Award of CityU
 - *2023* Research Tuition Scholarship of CityU
 - *2023* AAMAS Scholarship
@@ -140,5 +144,5 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 
 
 # 💻 Professional Service
-- **Program Committee:** IJCAI'25, AAAI'25, IJCAI'24, AAAI'24
-- **Reviewer:** Journal of Artificial Intelligence (AIJ), Journal of Artificial Intelligence Research (JAIR), Journal of Combinatorial Optimization (JoCO)
+- **Conference Reviewer or Program Committee Member:** AAAI'24-26, IJCAI'24-25, AAMAS'26, NeurIPS'25, ECAI'25
+- **Journal Reviewer:** Journal of Artificial Intelligence (AIJ), Journal of Artificial Intelligence Research (JAIR), Journal of Combinatorial Optimization (JoCO)
