@@ -46,13 +46,13 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 
 ### 2026
 - **Likelihood of the Existence of Average Justified Representation**  
-  (α-β) Qishen Han, Biaoshuai Tao, Lirong Xia, Chengkai Zhang, ***Houyu Zhou***
+  (α-β) Qishen Han, Biaoshuai Tao, Lirong Xia, Chengkai Zhang, ***Houyu Zhou***  
   *SODA, CORE-A<sup>*</sup>*  
 
 ### 2025
 
 - **Learning-Augmented Facility Location Mechanisms for the Envy Ratio Objective**  
-  (α-β) Haris Aziz, Yuhang Guo, Alexander Lam, ***Houyu Zhou***
+  (α-β) Haris Aziz, Yuhang Guo, Alexander Lam, ***Houyu Zhou***  
   *NeurIPS, CORE-A<sup>*</sup>*
 
 - **The Degree of (Extended) Justified Representation and Its Optimization**  
