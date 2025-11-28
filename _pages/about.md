@@ -33,7 +33,7 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 
 ### 2026
 - **Minimizing Inequity in Facility Location Games**  
-  (α-β) Yuhang Guo, ***Houyu Zhou***  
+  (α-β) Yuhang Guo, ***Houyu Zhou<sup>†</sup>***  
   *AAAI, CORE-A<sup>*</sup>*  
 
 - **Likelihood of the Existence of Average Justified Representation**  
