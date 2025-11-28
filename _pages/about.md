@@ -130,10 +130,10 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 - *2016.09 - 2020.06*, Undergraduate, Shandong University
 
 # 💬 Teaching
-- **CS3334 Data Structures**, CityU, Teaching Assistant, Undergraduated Level
+- **CS3334 Data Structures**, CityU, Teaching Assistant, Undergraduate Level
 - **CS6382 Algorithm Analysis and Game Theory**, CityU, Teaching Assistant, Graduated Level
 
 
 # 💻 Professional Service
 - **Conference Reviewer or Program Committee Member:** AAAI'24-26, IJCAI'24-25, AAMAS'26, NeurIPS'25, ECAI'25
-- **Journal Reviewer:** Journal of Artificial Intelligence (AIJ), Journal of Artificial Intelligence Research (JAIR), Journal of Combinatorial Optimization (JoCO)
+- **Journal Reviewer:** Journal of Artificial Intelligence (AIJ), Journal of Artificial Intelligence Research (JAIR), Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS), Journal of Combinatorial Optimization (JoCO)
