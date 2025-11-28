@@ -30,21 +30,12 @@ I am interested in algorithmic game theory and computational social choice. My w
 
 _Note: By international convention, authors for papers in **T**heoretical **C**omputer **S**cience (TCS) and **Econ**omics and **C**omputer **S**cience (EconCS) are ordered alphabetically (α-β). † indicates the corresponding author._
 
-### Under Review
-
-- **Large Language Models for Multi-Facility Location Mechanism Design**  
-  Nguyen T Thach, Fei Liu, ***Houyu Zhou<sup>†</sup>***, Hau Chan
-
-- **Group-fair Facility Location Games with Externalities**  
-  (α-β) Minming Li, Cheng Peng, Ying Wang, ***Houyu Zhou<sup>†</sup>***
-
-- **Facility Location Games with Competitors**  
-  (α-β) Cheng Peng, ***Houyu Zhou<sup>†</sup>***
-
-- **Facility Location Games with Task Allocation**  
-  (α-β) Zifan Gong, Minming Li, ***Houyu Zhou<sup>†</sup>***
 
 ### 2026
+- **Minimizing Inequity in Facility Location Games**  
+  (α-β) Yuhang Guo, ***Houyu Zhou***  
+  *AAAI, CORE-A<sup>*</sup>*  
+
 - **Likelihood of the Existence of Average Justified Representation**  
   (α-β) Qishen Han, Biaoshuai Tao, Lirong Xia, Chengkai Zhang, ***Houyu Zhou***  
   *SODA, CORE-A<sup>*</sup>*  
