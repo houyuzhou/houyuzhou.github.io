@@ -32,6 +32,10 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 
 
 ### 2026
+- **Mechanism Design for Efficient Task Allocation**  
+  (α-β) Zifan Gong, Minming Li, ***Houyu Zhou<sup>†</sup>***  
+  *AAMAS, CORE-A<sup>*</sup>*  
+
 - **Minimizing Inequity in Facility Location Games**  
   (α-β) Yuhang Guo, ***Houyu Zhou<sup>†</sup>***  
   *AAAI, CORE-A<sup>*</sup>*  
@@ -135,5 +139,6 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 
 
 # 💻 Professional Service
-- **Conference Reviewer or Program Committee Member:** AAAI'24-26, IJCAI'24-25, AAMAS'26, NeurIPS'25, ECAI'25
-- **Journal Reviewer:** Journal of Artificial Intelligence (AIJ), Journal of Artificial Intelligence Research (JAIR), Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS), Journal of Combinatorial Optimization (JoCO)
+- **Conference Reviewer or Program Committee Member:** AAAI'24-26, IJCAI'24-26, AAMAS'26, NeurIPS'25, ECAI'25
+- **Journal Reviewer:** Journal of Artificial Intelligence (AIJ), ACM Transactions on Economics and Computation (TEAC),
+Journal of Artificial Intelligence Research (JAIR), Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS), Journal of Combinatorial Optimization (JoCO)
