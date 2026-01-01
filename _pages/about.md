@@ -38,7 +38,7 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 
 - **Minimizing Inequity in Facility Location Games**  
   (α-β) Yuhang Guo, ***Houyu Zhou<sup>†</sup>***  
-  *AAAI, CORE-A<sup>*</sup>*  
+  *AAAI(oral), CORE-A<sup>*</sup>*  
 
 - **Likelihood of the Existence of Average Justified Representation**  
   (α-β) Qishen Han, Biaoshuai Tao, Lirong Xia, Chengkai Zhang, ***Houyu Zhou***  
@@ -99,7 +99,7 @@ _Note: By international convention, authors for papers in **T**heoretical **C**o
 
 - **Strategyproof Mechanisms for Group-Fair Facility Location Problems**  
   ***Houyu Zhou***, Minming Li, Hau Chan  
-  *IJCAI (long oral), CORE-A<sup>*</sup>*
+  *IJCAI(long oral), CORE-A<sup>*</sup>*
 
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
