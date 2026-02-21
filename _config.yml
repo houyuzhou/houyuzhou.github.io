@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Houyu Zhou (周厚宇)"
+title                    : "Houyu Zhou"
 description              : "Algorithmic Game Theory and Computational Social Choice. "
 repository               : "houyuzhou/houyuzhou.github.io"
 google_scholar_stats_use_cdn : false
@@ -21,7 +21,7 @@ google_site_verification :  # get google_site_verification from https://search.g
 
 # Site Author
 author:
-  name             : "Houyu Zhou (周厚宇)"
+  name             : "Houyu Zhou"
   avatar           : "images/hy_profile.jpg"
   bio              : "UNSW Sydney"
   location         : "Sydney, Australia"
