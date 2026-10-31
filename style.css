@@ -1,0 +1,225 @@
+/* Houyu Zhou — personal homepage */
+
+:root {
+  --bg: #ffffff;
+  --text: #16181d;
+  --muted: #5f6570;
+  --rule: #e4e6ea;
+  --accent: #a3271d;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Dark colors: follow the system unless the toggle chose light, or when it chose dark */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111317;
+    --text: #e9eaec;
+    --muted: #9aa0aa;
+    --rule: #2a2d33;
+    --accent: #f08a7e;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111317;
+  --text: #e9eaec;
+  --muted: #9aa0aa;
+  --rule: #2a2d33;
+  --accent: #f08a7e;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 1.06rem;
+  line-height: 1.6;
+  font-optical-sizing: auto;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+a:hover { border-bottom-color: currentColor; }
+
+.page {
+  position: relative;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 4.5rem 1.5rem 3rem;
+}
+
+/* Light/dark toggle: the moon shows in light mode, the sun in dark mode */
+
+.theme-toggle {
+  position: absolute;
+  top: 1.4rem;
+  right: 1.5rem;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.theme-toggle:hover { color: var(--accent); border-color: var(--accent); }
+
+.theme-toggle svg {
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.icon-sun { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .icon-sun { display: block; }
+  :root:not([data-theme="light"]) .icon-moon { display: none; }
+}
+:root[data-theme="dark"] .icon-sun { display: block; }
+:root[data-theme="dark"] .icon-moon { display: none; }
+
+/* Header */
+
+.masthead {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+  align-items: end;
+  padding-bottom: 2.2rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.masthead h1 {
+  margin: 0;
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.role {
+  margin: 0.6rem 0 0;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.links {
+  margin: 1.1rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.2rem;
+  font-family: var(--sans);
+  font-size: 0.86rem;
+  letter-spacing: 0.01em;
+}
+
+.portrait {
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: 0.6rem;
+  object-fit: cover;
+  display: block;
+}
+
+/* Sections */
+
+section { margin-top: 2.4rem; }
+
+section + section {
+  border-top: 1px solid var(--rule);
+  padding-top: 2.4rem;
+}
+
+h2 {
+  margin: 0 0 1.2rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+h3 {
+  margin: 1.8rem 0 0.6rem;
+  font-family: var(--sans);
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+p { margin: 0 0 1rem; }
+
+/* Entries: text on the left, date on the right, optional second line */
+
+.entries,
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.entry { margin-bottom: 0.9rem; }
+.compact .entry { margin-bottom: 0.45rem; }
+
+.entry-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+}
+
+.date {
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.entry-sub {
+  color: var(--muted);
+  font-size: 0.97rem;
+}
+
+.list li { margin-bottom: 0.2rem; }
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* Narrow screens */
+
+@media (max-width: 640px) {
+  .page { padding: 2.5rem 1rem 2rem; }
+  .theme-toggle { top: 1rem; right: 1rem; }
+  .masthead { grid-template-columns: 1fr; gap: 1.2rem; }
+  .portrait { order: -1; width: 7rem; height: 7rem; }
+  .masthead h1 { font-size: 2.1rem; }
+  .entry-head { flex-direction: column; gap: 0; }
+}
